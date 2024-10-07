@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 10px;
+    text-align: center;
+    background: grey;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 2);
+}
+
+#add-btn{
+    height: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
+}
+
+#close-popup-box{
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#submit-button{
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.form-label{
+    font-size: 20px;
+}
+
+.form-input{
+    border: 2px solid;
+}
+
+.read-option{
+    font-size: 15px;
+    border: 2px solid;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-rows: 200px 200px 200px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.books{
+    border: black solid;
+    overflow: auto;
+    padding: 10px;
+    background: rgb(73, 122, 228);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+}
+
+ul, li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.remove-btn,
+.status-btn{
+    background: rgb(255, 255, 255);
+    margin: 2px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+::backdrop {
+    background: rgb(43, 45, 46);
+    opacity: 0.75;
+}

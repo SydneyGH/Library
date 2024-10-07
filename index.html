@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="library.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class="header">
+        <h1>This is your Library</h1>
+        <button id="add-btn" class="newBook">Show Box</button>
+    </div>
+
+    <div id="box-dialog">
+        <dialog class="dialog-container" id="dialog">
+            <button id="close-popup-box">Close Box</button>
+
+            <label class="form-label" for="book-title">Title</label>
+            <input class="form-input" type="text" id="title" required>
+
+            <label class="form-label" for="book-author">Author</label>
+            <input class="form-input" type="text" id="author" required>
+
+            <label class="form-label" for="book-page">Pages</label>
+            <input class="form-input" type="number" id="pages" required>
+
+            <select name="select-read" id="read" class="read-option">
+                <option>Read</option>
+                <option>Not Read</option>
+            </select>
+
+            <button id="submit-button" type="submit">Submit</button>
+        </dialog>
+    </div>
+
+    <div class="content" id="container">
+        <!-- <div class="books">
+            <div class="book-card">
+                <h2>Test Title</h2>
+                <ul>
+                    <li class="list-style">Test Author</li>
+                    <li class="list-style">Test Pages</li>
+                    <li class="list-style">Test Read</li>
+                </ul>
+            </div>
+        </div> -->
+    </div>
+</body>
+</html> 
